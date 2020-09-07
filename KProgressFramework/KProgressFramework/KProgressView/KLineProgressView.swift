@@ -89,37 +89,37 @@ extension KLineProgressView {
 /// MARK : Public  Method 公共接口KPI方法
 extension KLineProgressView {
     @discardableResult // 取消警告
-    public func K_MakeProgress(_ progress: CGFloat) -> KLineProgressView {
+    @objc public func K_MakeProgress(_ progress: CGFloat) -> KLineProgressView {
         self.progress = progress
         return self
     }
     @discardableResult // 取消警告
-    public func K_MakeAddSuperView(_ view: UIView) -> KLineProgressView {
+    @objc public func K_MakeAddSuperView(_ view: UIView) -> KLineProgressView {
         view.addSubview(self)
         return self
     }
     @discardableResult // 取消警告
-    public func K_MakeBGColor(_ bgColor: UIColor) -> KLineProgressView{
+    @objc public func K_MakeBGColor(_ bgColor: UIColor) -> KLineProgressView{
         self.bgColor = bgColor
         return self
     }
     @discardableResult // 取消警告
-    public func K_MakeProgressColor(_ progressColor: UIColor) -> KLineProgressView{
+    @objc public func K_MakeProgressColor(_ progressColor: UIColor) -> KLineProgressView{
         self.progressColor = progressColor
         return self
     }
     @discardableResult // 取消警告
-    public func K_MakeLineColor(_ lineColor: UIColor) -> KLineProgressView{
+    @objc public func K_MakeLineColor(_ lineColor: UIColor) -> KLineProgressView{
         self.lineColor = lineColor
         return self
     }
     @discardableResult // 取消警告
-    public func K_MakeLineWidth(_ lineWidth: CGFloat) -> KLineProgressView{
+    @objc public func K_MakeLineWidth(_ lineWidth: CGFloat) -> KLineProgressView{
         self.lineWidth = lineWidth
         return self
     }
     @discardableResult // 取消警告
-    public func K_MakeFrame(_ frame: CGRect) -> KLineProgressView{
+    @objc public func K_MakeFrame(_ frame: CGRect) -> KLineProgressView{
         self.frame = frame
         return self
     }

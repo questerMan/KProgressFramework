@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/KProgressFramework-Swift.h</key>
 		<data>
-		9Q1vMSz+vpJ01VUuV1t2aEAJsyY=
+		0+SlH/WLX7y9N3pSEwMfKjAdcws=
 		</data>
 		<key>Headers/KProgressFramework.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JNp5TOX8RO7vOUixr1cBSo6QdvU=
+		ciSzw3pnBVnykuv8TaihHNN8FSo=
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		SPsrMCpTvXhGRfOOlPG4dTXQnfM=
+		5PNCh4RJXZuMl0AH0ElaAQ3FQzs=
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		SPsrMCpTvXhGRfOOlPG4dTXQnfM=
+		5PNCh4RJXZuMl0AH0ElaAQ3FQzs=
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		e45OeyltOop3f0YykCeWwZe3q6Y=
+		BU/FauQ67WWgNsqnM3XLaEUyLkQ=
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		52LZIk93KH+0KI/W3IR1zCEqZvQ=
+		w50yvuVW4fNcadmc9DzVLnN1Hp4=
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		e45OeyltOop3f0YykCeWwZe3q6Y=
+		BU/FauQ67WWgNsqnM3XLaEUyLkQ=
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		52LZIk93KH+0KI/W3IR1zCEqZvQ=
+		w50yvuVW4fNcadmc9DzVLnN1Hp4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9Q1vMSz+vpJ01VUuV1t2aEAJsyY=
+			0+SlH/WLX7y9N3pSEwMfKjAdcws=
 			</data>
 			<key>hash2</key>
 			<data>
-			ghgZmJYaV63Ds/jB0/M4DORUCb34IiEVJOwtFBPkqWk=
+			DuWGZppS6S6qba+d6mbY90jPDmkCZKURGNOr5flF8Xk=
 			</data>
 		</dict>
 		<key>Headers/KProgressFramework.h</key>
@@ -73,66 +73,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SPsrMCpTvXhGRfOOlPG4dTXQnfM=
+			5PNCh4RJXZuMl0AH0ElaAQ3FQzs=
 			</data>
 			<key>hash2</key>
 			<data>
-			VpXTzfs3WJF3LSysMuVDTQH4DlSPcU31avfuZLBH+4k=
+			2Q+OolvnXwrTGSglp+gvJdVmtOtMYzgffEuHGddWsCo=
 			</data>
 		</dict>
 		<key>Modules/KProgressFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SPsrMCpTvXhGRfOOlPG4dTXQnfM=
+			5PNCh4RJXZuMl0AH0ElaAQ3FQzs=
 			</data>
 			<key>hash2</key>
 			<data>
-			VpXTzfs3WJF3LSysMuVDTQH4DlSPcU31avfuZLBH+4k=
+			2Q+OolvnXwrTGSglp+gvJdVmtOtMYzgffEuHGddWsCo=
 			</data>
 		</dict>
 		<key>Modules/KProgressFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e45OeyltOop3f0YykCeWwZe3q6Y=
+			BU/FauQ67WWgNsqnM3XLaEUyLkQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			nDhrKFp4krs8FdvQ7RZrqXjSx/TwvXwxtXm6Dl5om84=
+			huxy9Y60PTC/VY05fUxGJxtnaQgjIgHVujN92gSYJkA=
 			</data>
 		</dict>
 		<key>Modules/KProgressFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			52LZIk93KH+0KI/W3IR1zCEqZvQ=
+			w50yvuVW4fNcadmc9DzVLnN1Hp4=
 			</data>
 			<key>hash2</key>
 			<data>
-			EjMtdpnCqdM1QGmvjzYB1N8LYJXmHORicUYYW1ymymA=
+			pmyM4njGwxIgIM7epl8gtAx1xeL9A/nCMYZO1HfaO/U=
 			</data>
 		</dict>
 		<key>Modules/KProgressFramework.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e45OeyltOop3f0YykCeWwZe3q6Y=
+			BU/FauQ67WWgNsqnM3XLaEUyLkQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			nDhrKFp4krs8FdvQ7RZrqXjSx/TwvXwxtXm6Dl5om84=
+			huxy9Y60PTC/VY05fUxGJxtnaQgjIgHVujN92gSYJkA=
 			</data>
 		</dict>
 		<key>Modules/KProgressFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			52LZIk93KH+0KI/W3IR1zCEqZvQ=
+			w50yvuVW4fNcadmc9DzVLnN1Hp4=
 			</data>
 			<key>hash2</key>
 			<data>
-			EjMtdpnCqdM1QGmvjzYB1N8LYJXmHORicUYYW1ymymA=
+			pmyM4njGwxIgIM7epl8gtAx1xeL9A/nCMYZO1HfaO/U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

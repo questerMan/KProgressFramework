@@ -232,7 +232,17 @@ SWIFT_CLASS("_TtC18KProgressFramework17KLineProgressView")
 
 
 
+@class UIColor;
 
+@interface KLineProgressView (SWIFT_EXTENSION(KProgressFramework))
+- (KLineProgressView * _Nonnull)K_MakeProgress:(CGFloat)progress;
+- (KLineProgressView * _Nonnull)K_MakeAddSuperView:(UIView * _Nonnull)view;
+- (KLineProgressView * _Nonnull)K_MakeBGColor:(UIColor * _Nonnull)bgColor;
+- (KLineProgressView * _Nonnull)K_MakeProgressColor:(UIColor * _Nonnull)progressColor;
+- (KLineProgressView * _Nonnull)K_MakeLineColor:(UIColor * _Nonnull)lineColor;
+- (KLineProgressView * _Nonnull)K_MakeLineWidth:(CGFloat)lineWidth;
+- (KLineProgressView * _Nonnull)K_MakeFrame:(CGRect)frame;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
