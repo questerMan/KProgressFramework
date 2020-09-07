@@ -1,0 +1,11 @@
+framework module KProgressFramework {
+  umbrella header "KProgressFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module KProgressFramework.Swift {
+    header "KProgressFramework-Swift.h"
+    requires objc
+}
