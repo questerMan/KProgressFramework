@@ -1,7 +1,7 @@
 
-# KProgressFramework
-  Swift条形进度条
-特点：进度条简单，使用链式编程思想进行创建，是代码更加优雅！
+# KProgressFramework Swift条形进度条
+
+特 点：进度条简单，使用链式编程思想进行创建，是代码更加优雅！
   
 cocoapod导入:
 
