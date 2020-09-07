@@ -1,5 +1,6 @@
 
 # KProgressFramework Swift条形进度条
+![Image](https://github.com/questerMan/KProgressFramework/blob/master/progressView.png)
 
 特 点：
 
