@@ -6,12 +6,17 @@
 cocoapod导入:
 
 platform :ios, '13.0'
+
 target 'demoName' do
+
   use_frameworks!
+  
   pod 'KProgressFramework', '~> 1.0.1'
+  
 end
 
 使用：类似Masonry进行编写
+
 /// MARK - 1.创建：必须 必须 必须 通过initProgressView类方法进行实例化创建
 
 let progressView = KLineProgressView.initProgressView { (make) in 
