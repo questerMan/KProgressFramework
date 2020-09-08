@@ -8,6 +8,8 @@
       
       你可以根据需要对进度条进行修改文本标签、背景边框等样式进行自定义。
       
+      OC和Swift都可使用，OC使用时候需要进行桥接。
+      
 cocoapod导入:
 
       platform :ios, '13.0'
@@ -55,3 +57,12 @@ cocoapod导入:
       /// K_MakeFrame                   坐标位置设置
      
 
+
+OC使用Swift第三方库的桥接的三个步骤：
+      
+    1、创建.h文件，名为“工程名-Bridging-Header.h”；
+    
+    2、在Build Setting配置两个值： 1⃣️设置Defines Module 为Yes 2⃣️设置Product Module Name 为当前工程名 (有时系统会自动为我们设置好)；
+    
+    3、导入一个头文件“工程名-Swift.h”就可以使用了，如：#import <KProgressFramework-Swift.h>
+     
