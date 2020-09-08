@@ -19,6 +19,8 @@ cocoapod导入:
 
 使用：类似Masonry进行编写
 
+    导入头文件： import KProgressFramework
+
 本次封装条形进度条，代码封装在KLineProgressView这个类中，后续更新创建其他多样式进度条。
 
       /// MARK - 1.创建：必须 必须 必须 通过initProgressView类方法进行实例化创建
