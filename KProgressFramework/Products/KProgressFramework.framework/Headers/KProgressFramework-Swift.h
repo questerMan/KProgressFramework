@@ -244,6 +244,27 @@ SWIFT_CLASS("_TtC18KProgressFramework17KLineProgressView")
 - (KLineProgressView * _Nonnull)K_MakeFrame:(CGRect)frame;
 @end
 
+
+SWIFT_CLASS("_TtC18KProgressFramework17KWaveProgressView")
+@interface KWaveProgressView : KBaseProgressView
+- (void)layoutSubviews;
+- (void)drawRect:(CGRect)rect;
+@end
+
+
+
+
+
+
+
+
+
+typedef SWIFT_ENUM(NSInteger, TYPE_ENUM, closed) {
+  TYPE_ENUMCircleType = 0,
+  TYPE_ENUMSquareType = 1,
+  TYPE_ENUMTriangleType = 2,
+};
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif

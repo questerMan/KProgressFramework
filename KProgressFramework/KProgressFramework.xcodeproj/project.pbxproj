@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260B528E250B5A2C00783A12 /* KWaveProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B528D250B5A2C00783A12 /* KWaveProgressView.swift */; };
 		261841FC24FE243000595688 /* KProgressFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261841F224FE243000595688 /* KProgressFramework.framework */; };
 		2618420124FE243000595688 /* KProgressFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2618420024FE243000595688 /* KProgressFrameworkTests.swift */; };
 		2618420324FE243000595688 /* KProgressFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 261841F524FE243000595688 /* KProgressFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260B528D250B5A2C00783A12 /* KWaveProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWaveProgressView.swift; sourceTree = "<group>"; };
 		261841F224FE243000595688 /* KProgressFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KProgressFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		261841F524FE243000595688 /* KProgressFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KProgressFramework.h; sourceTree = "<group>"; };
 		261841F624FE243000595688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				2618420D24FE246200595688 /* KBaseProgressView.swift */,
 				2618421024FE248E00595688 /* KLineProgressView.swift */,
 				2618423A24FE275A00595688 /* KDefaultMacro.swift */,
+				260B528D250B5A2C00783A12 /* KWaveProgressView.swift */,
 			);
 			path = KProgressView;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260B528E250B5A2C00783A12 /* KWaveProgressView.swift in Sources */,
 				2618423B24FE275A00595688 /* KDefaultMacro.swift in Sources */,
 				2618420E24FE246200595688 /* KBaseProgressView.swift in Sources */,
 				2618421124FE248E00595688 /* KLineProgressView.swift in Sources */,
@@ -400,7 +404,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LYK.KProgressFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -432,7 +436,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LYK.KProgressFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
