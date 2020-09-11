@@ -45,7 +45,7 @@ cocoapod导入:
                 .K_MakeProgressColor(.red)
                 .K_MakeLineColor(.gray)
                 .K_MakeLineWidth(2)
-                .K_MakeType(.circleType)
+                .K_MakeType(.circleType) // 选择类型（形状）：圆形、三角形、正方形
         } // 波浪进度条实例化对象
       
       
@@ -72,6 +72,7 @@ cocoapod导入:
 
       /// K_MakeFrame                   坐标位置设置
      
+      /// K_MakeType                    形状类型，默认圆形（仅属于波浪进度条）
 
 
 OC使用Swift第三方库的桥接的三个步骤：
