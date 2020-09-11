@@ -1,5 +1,5 @@
 
-# KProgressFramework Swift条形进度条
+# KProgressFramework Swift进度条
 ![Image](https://github.com/questerMan/KProgressFramework/blob/master/progressView.png)
 
 特 点：
@@ -16,12 +16,15 @@ cocoapod导入:
 
       target 'demoName' do
         use_frameworks!
-        pod 'KProgressFramework', '~> 1.0.1'
+        pod 'KProgressFramework', '~> 2.0.0'
       end
 
 使用：类似Masonry进行编写
 
     导入头文件： import KProgressFramework
+    
+    KLineProgressView 条形进度条
+    KWaveProgressView 波浪进度条
 
 本次封装条形进度条，代码封装在KLineProgressView这个类中，后续更新创建其他多样式进度条。
 
@@ -32,7 +35,20 @@ cocoapod导入:
               .K_MakeProgress(0.5)      // 当前进度初始值
               .K_MakeLineColor(.black)  // 进度条边框颜色
               .K_MakeBGColor(.white)    // 进度条背景颜色
-      }
+      } // 条形进度条实例化对象
+      
+      或
+      
+      let progressView = KWaveProgressView.initProgressView { (make) in
+            make.K_MakeFrame(CGRect(x: 50, y: 200, width: 100, height: 100))
+                .K_MakeAddSuperView(self)
+                .K_MakeProgressColor(.red)
+                .K_MakeLineColor(.gray)
+                .K_MakeLineWidth(2)
+                .K_MakeType(.circleType)
+        } // 波浪进度条实例化对象
+      
+      
 
 初始化方法如下：
 
@@ -50,7 +66,7 @@ cocoapod导入:
 
       /// var progresseLabel：UILabel   字体标签（默认字体黑色/居中显示/隐藏）
 
-      /// K_MakeProgress                进度状态（0到1）赋值后实时更新
+      /// K_MakeProgress                进度状态（0到1）赋值后实时更新 ：改变它的数值进度条将会作出相应变化。
 
       /// K_MakeAddSuperView            添加到某视图上
 
