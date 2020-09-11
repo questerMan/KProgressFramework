@@ -16,7 +16,7 @@ cocoapod导入:
 
       target 'demoName' do
         use_frameworks!
-        pod 'KProgressFramework', '~> 2.0.0'
+        pod 'KProgressFramework', '~> 2.0.1'
       end
 
 使用：类似Masonry进行编写
