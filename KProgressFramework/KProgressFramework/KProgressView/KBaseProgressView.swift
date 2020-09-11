@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc public class KBaseProgressView: UIView {
+class KBaseProgressView: UIView {
 
     /// 背景颜色（默认白色）
     internal var bgColor:UIColor?

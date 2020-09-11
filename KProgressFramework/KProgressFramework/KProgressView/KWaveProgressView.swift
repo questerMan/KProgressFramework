@@ -14,7 +14,7 @@ import UIKit
     case triangleType = 2
 }
 
-@objc public class KWaveProgressView: KBaseProgressView {
+class KWaveProgressView: KBaseProgressView {
     
     private var displayLink: CADisplayLink?    ///  定时器
     private var wave_amplitude: CGFloat?       ///  振幅a    （  y = asin( wx + φ ) + k  ）

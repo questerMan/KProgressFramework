@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc public class KLineProgressView: KBaseProgressView {
+class KLineProgressView: KBaseProgressView {
     
     var originXY:CGFloat = kScaleWidth(1.0)
     

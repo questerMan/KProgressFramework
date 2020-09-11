@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/KProgressFramework-Swift.h</key>
 		<data>
-		JTubAEOCtaSliVoWQ9+3qAsBuEI=
+		ONx8U20wuaDNdV5v8N0vJtPoLnU=
 		</data>
 		<key>Headers/KProgressFramework.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BOuHYtPEpqlZO3Fzn0Ffbc9VyA4=
+		E7B+WkrAZdubXDlJu0TKZQb8hX4=
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Hb3VGFB2Ca27Veu9k/OQ2iOIG30=
+		R+CaNpGC8UIZH0YTnlFaoiefowg=
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		Hb3VGFB2Ca27Veu9k/OQ2iOIG30=
+		R+CaNpGC8UIZH0YTnlFaoiefowg=
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+wEQCN9Xa+ApdzNZbACfizgKUHo=
+		ue4qy+4XagMGfYth3r8tuDGFdTI=
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/KProgressFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		+wEQCN9Xa+ApdzNZbACfizgKUHo=
+		ue4qy+4XagMGfYth3r8tuDGFdTI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JTubAEOCtaSliVoWQ9+3qAsBuEI=
+			ONx8U20wuaDNdV5v8N0vJtPoLnU=
 			</data>
 			<key>hash2</key>
 			<data>
-			kdUo0YZqfPiR8TgH97ePmLmzg2rv3rbzNsTETgxBuY0=
+			pUIyabvVxCV/adCoLvDPMH7ZQ3rEBVchPT2zi5HtolY=
 			</data>
 		</dict>
 		<key>Headers/KProgressFramework.h</key>
@@ -73,22 +73,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Hb3VGFB2Ca27Veu9k/OQ2iOIG30=
+			R+CaNpGC8UIZH0YTnlFaoiefowg=
 			</data>
 			<key>hash2</key>
 			<data>
-			jkZJMY7Huvf0xCbH6Cpl2dHVzyq3EhCxSBqDv1HnfAA=
+			vVIfLo+d59A37r89OQcOWMvHs2AJ5YfKCbguVjpFcKw=
 			</data>
 		</dict>
 		<key>Modules/KProgressFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Hb3VGFB2Ca27Veu9k/OQ2iOIG30=
+			R+CaNpGC8UIZH0YTnlFaoiefowg=
 			</data>
 			<key>hash2</key>
 			<data>
-			jkZJMY7Huvf0xCbH6Cpl2dHVzyq3EhCxSBqDv1HnfAA=
+			vVIfLo+d59A37r89OQcOWMvHs2AJ5YfKCbguVjpFcKw=
 			</data>
 		</dict>
 		<key>Modules/KProgressFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -106,11 +106,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+wEQCN9Xa+ApdzNZbACfizgKUHo=
+			ue4qy+4XagMGfYth3r8tuDGFdTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			E+DiQGG376leoe3r7/1y2FxuzFBezaaA7YULOOIdE8k=
+			wv4t6gjwbfNWtO1ldZ8g1pdzfrk15HQUAGn22egTXns=
 			</data>
 		</dict>
 		<key>Modules/KProgressFramework.swiftmodule/arm64.swiftdoc</key>
@@ -128,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+wEQCN9Xa+ApdzNZbACfizgKUHo=
+			ue4qy+4XagMGfYth3r8tuDGFdTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			E+DiQGG376leoe3r7/1y2FxuzFBezaaA7YULOOIdE8k=
+			wv4t6gjwbfNWtO1ldZ8g1pdzfrk15HQUAGn22egTXns=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
