@@ -20,13 +20,16 @@ cocoapod导入:
       end
 
 使用：类似Masonry进行编写
-
-    导入头文件： import KProgressFramework
     
     KLineProgressView 条形进度条
     KWaveProgressView 波浪进度条
 
 本次封装条形进度条，代码封装在KLineProgressView这个类中，后续更新创建其他多样式进度条。
+
+Swift :
+
+      导入头文件： import KProgressFramework
+      /**======================================== Swift 【公众号：疯狂1024】========================================*/
 
       /// MARK - 1.创建：必须 必须 必须 通过initProgressView类方法进行实例化创建
 
@@ -47,6 +50,30 @@ cocoapod导入:
                 .K_MakeLineWidth(2)
                 .K_MakeType(.circleType) // 选择类型（形状）：圆形、三角形、正方形
         } // 波浪进度条实例化对象
+        
+
+OC :
+
+        导入头文件： #import <KProgressFramework-Swift.h>  // 需要桥接（OC调用Swift第三方框架）
+        /**======================================== OC 【公众号：疯狂1024】========================================*/
+        #pragma mark - 懒加载 
+        -(KLineProgressView *)lineProgessView {
+            if (!_lineProgessView) {
+                _lineProgessView = [KLineProgressView initProgressView:^(KLineProgressView * _Nonnull make) {
+                    [make K_MakeFrame:CGRectMake(20, 84, self.view.frame.size.width-40, 20)];
+                    [make K_MakeAddSuperView:self.view];
+                    [make K_MakeLineWidth:3];
+                }];
+            }
+            return _lineProgessView;
+        }
+
+        - (void)viewDidLoad {
+            [super viewDidLoad];
+    
+            [self.lineProgessView K_MakeProgress:0.8];
+   
+           }
       
       
 
