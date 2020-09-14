@@ -186,6 +186,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreGraphics;
+@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -202,6 +204,60 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="KProgressFramework",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+@class UILabel;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC18KProgressFramework17KBaseProgressView")
+@interface KBaseProgressView : UIView
+/// 字体标签（默认字体黑色/居中显示/隐藏）
+@property (nonatomic, strong) UILabel * _Nonnull progresseLabel;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+@end
+
+
+
+
+SWIFT_CLASS("_TtC18KProgressFramework17KLineProgressView")
+@interface KLineProgressView : KBaseProgressView
+@property (nonatomic, strong) UIView * _Nonnull progressView;
+- (void)layoutSubviews;
+@end
+
+
+@interface KLineProgressView (SWIFT_EXTENSION(KProgressFramework))
++ (KLineProgressView * _Nonnull)initProgressView:(SWIFT_NOESCAPE void (^ _Nonnull)(KLineProgressView * _Nonnull))progressBlock SWIFT_METHOD_FAMILY(none);
+@end
+
+
+
+@class UIColor;
+
+@interface KLineProgressView (SWIFT_EXTENSION(KProgressFramework))
+- (KLineProgressView * _Nonnull)K_MakeProgress:(CGFloat)progress;
+- (KLineProgressView * _Nonnull)K_MakeAddSuperView:(UIView * _Nonnull)view;
+- (KLineProgressView * _Nonnull)K_MakeBGColor:(UIColor * _Nonnull)bgColor;
+- (KLineProgressView * _Nonnull)K_MakeProgressColor:(UIColor * _Nonnull)progressColor;
+- (KLineProgressView * _Nonnull)K_MakeLineColor:(UIColor * _Nonnull)lineColor;
+- (KLineProgressView * _Nonnull)K_MakeLineWidth:(CGFloat)lineWidth;
+- (KLineProgressView * _Nonnull)K_MakeFrame:(CGRect)frame;
+@end
+
+
+SWIFT_CLASS("_TtC18KProgressFramework17KWaveProgressView")
+@interface KWaveProgressView : KBaseProgressView
+- (void)layoutSubviews;
+- (void)drawRect:(CGRect)rect;
+@end
+
+
+
+
+
+
+
+
 
 typedef SWIFT_ENUM(NSInteger, TYPE_ENUM, closed) {
   TYPE_ENUMCircleType = 0,

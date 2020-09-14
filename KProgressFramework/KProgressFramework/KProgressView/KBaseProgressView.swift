@@ -2,13 +2,13 @@
 //  KBaseProgressView.swift
 //  KProgressFramework
 //
-//  Created by 陆遗坤 on 2020/9/1.
-//  Copyright © 2020 陆遗坤. All rights reserved.
+//  Created by 疯狂1024 on 2020/9/1.
+//  Copyright © 2020 疯狂1024. All rights reserved.
 //
 
 import UIKit
 
-class KBaseProgressView: UIView {
+@objc public class KBaseProgressView: UIView {
 
     /// 背景颜色（默认白色）
     internal var bgColor:UIColor?

@@ -2,8 +2,8 @@
 //  KProgressFramework.h
 //  KProgressFramework
 //
-//  Created by 陆遗坤 on 2020/9/1.
-//  Copyright © 2020 陆遗坤. All rights reserved.
+//  Created by 疯狂1024 on 2020/9/1.
+//  Copyright © 2020 疯狂1024. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

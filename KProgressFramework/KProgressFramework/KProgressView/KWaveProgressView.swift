@@ -2,8 +2,8 @@
 //  KWaveProgressView.swift
 //  KProgressFramework
 //
-//  Created by 陆遗坤 on 2020/9/11.
-//  Copyright © 2020 陆遗坤. All rights reserved.
+//  Created by 疯狂1024 on 2020/9/11.
+//  Copyright © 2020 疯狂1024. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ import UIKit
     case triangleType = 2
 }
 
-class KWaveProgressView: KBaseProgressView {
+@objc public class KWaveProgressView: KBaseProgressView {
     
     private var displayLink: CADisplayLink?    ///  定时器
     private var wave_amplitude: CGFloat?       ///  振幅a    （  y = asin( wx + φ ) + k  ）
