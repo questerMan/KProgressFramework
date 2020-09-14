@@ -1,5 +1,5 @@
 
-# KProgressFramework Swift进度条
+# KProgressFramework Swift进度条的最新版本 2.0.2
 ![Image](https://github.com/questerMan/KProgressFramework/blob/master/zhanshi.png)
 
 特 点：
@@ -16,7 +16,7 @@ cocoapod导入:
 
       target 'demoName' do
         use_frameworks!
-        pod 'KProgressFramework', '~> 2.0.1'
+        pod 'KProgressFramework', '~> 2.0.2'
       end
 
 使用：类似Masonry进行编写
