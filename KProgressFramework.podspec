@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "KProgressFramework"
-  spec.version      = "2.0.2"
+  spec.version      = "2.0.3"
   spec.summary      = "带百分比的Swift条形进度条"
   spec.description  = <<-DESC
   第一次上传CocoaPod！！！
